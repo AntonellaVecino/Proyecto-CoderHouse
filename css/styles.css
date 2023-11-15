@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Salsa&display=swap');
+
+body{
+    background: linear-gradient(45deg, #055405, #2c632c);
+    color: white;
+    font-family: 'Salsa', cursive;
+}
+h1, h2, h3{
+    font-family: 'Berkshire Swash', serif;
+}
+/* Barra navegacion */
+.navbar{
+    font-size: 25px;
+    background-color: green;
+    list-style: none;
+    padding: 25px;
+    background-size: cover;
+}
+.nav-item{
+    padding: 20px;
+}
+.navbar img{
+    margin-right: 25px;
+}
+#barraDrop{
+    color: yellow;
+}
+.redes i{
+    padding-right: 5px;
+}
+/* carrusel */
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+}
+.carousel-caption a{
+    width: fit-content;
+    text-align: center; 
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: 3px solid black;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.carousel-caption a:hover{
+    background-color: rgb(69, 255, 1);
+    border: 3px solid rgb(0, 0, 0);
+    text-shadow: 0 0 0 5px black;
+    box-shadow: 2px 0px 10px 5px purple;
+}
+.carousel-caption h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.911);
+    text-shadow: 5px -6px 4px gold;
+}
+.jumbotron{
+    font-size: 25px;
+    text-align: center;
+    background-color:rgba(34, 139, 34, 0.674);
+}
+.jumbotron h1{
+    font-size: 45px;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+.videoPresentacion{
+    background-color:rgba(34, 139, 34, 0.674);
+    border-radius: 10px;
+    background-image: url(../imgs/multimedia/pulpo.png);
+    background-repeat: space;
+    background-size: 100px;
+    display: flex;
+    margin-top: 50px;
+    flex-flow: column wrap;
+}
+.videoPresentacion h3{
+    text-align: center;
+    text-decoration: overline;
+    font-size: 40px;
+    color: black;
+    padding-top: 15px;
+    text-shadow: 2px 2px 5px white;
+}
+.galeriaTrabajos{
+    background-color:rgba(34, 139, 34, 0.674);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "tituloGaleria tituloGaleria"
+    "foto1 foto2 "
+    "foto3 foto4"
+    "foto5 foto6"
+    "foto7 foto8"
+    "foto9 foto10"
+    "foto11 foto12";
+    margin-top: 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 15px;
+}
+.foto{
+    border: 3px solid black;
+    border-radius: 10px;
+    filter: grayscale(100%) blur(2px);
+}
+.foto:active{
+    border: 5px solid purple;
+    transform: scale(0.9);
+    transition: all 0.9s;
+    filter: grayscale(0%) blur(0px);
+}
+.galeriaTrabajos h1{
+    grid-area: tituloGaleria;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: overline;
+}
+.foto1{
+    grid-area: foto1;
+}
+.foto2{
+    grid-area: foto2;
+}
+.foto3{
+    grid-area: foto3;
+}
+.foto4{
+    grid-area: foto4;
+}
+.foto5{
+    grid-area: foto5;
+}
+.foto6{
+    grid-area: foto6;
+}
+.foto7{
+    grid-area: foto7;
+}
+.foto8{
+    grid-area: foto8;
+}
+.foto9{
+    grid-area: foto9;
+}
+.foto10{
+    grid-area: foto10;
+}
+.foto11{
+    grid-area: foto11;
+}
+.foto12{
+    grid-area: foto12;
+}
