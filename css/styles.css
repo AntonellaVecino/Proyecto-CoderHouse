@@ -157,3 +157,66 @@ h1, h2, h3{
 .foto12{
     grid-area: foto12;
 }
+cards{
+    color: black;
+    padding: 50px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.cards h4, p{
+    padding: 5px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 16px;
+}
+.cards h4{
+    text-decoration: overline;
+}
+.cards img{
+    border: 3px solid black;
+}
+.card{
+    border: 3px solid purple;
+    border-radius: 5px;
+}
+.card .btn{
+    margin: 3px;
+} 
+.card-body{
+    background-color: rgba(255, 217, 0, 0.838);
+}
+.posts h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.card:active{
+    transform: scale(1.06);
+    transition: all 0.9s;
+}
+.carruselVideos{
+    text-align: center;
+    background-color: rgba(34, 139, 34, 0.674);
+    margin-bottom: 15px;
+}
+.carruselVideos h2{
+    font-size: 35px;
+    text-decoration: overline;
+    padding-top: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+.carruselVideos p{
+    font-size: 20px;
+    color: black;
+}
+.carruselVideos .carousel-item{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.lista1{
+    padding: 5px;
+}
