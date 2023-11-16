@@ -157,7 +157,7 @@ h1, h2, h3{
 .foto12{
     grid-area: foto12;
 }
-cards{
+.cards{
     color: black;
     padding: 50px;
     margin-top: 15px;
@@ -222,6 +222,14 @@ cards{
 }
 footer{
     background-color: rgb(55, 128, 0);
+}
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .cards{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .cards{
@@ -414,4 +422,107 @@ footer{
     .footer iframe{
         height: 200px;
     }
+}
+
+/* aboutus */
+/* Página About Us */
+.tituloAbout{
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    padding: 15px;
+}
+.videoAbout{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: purple;
+    border: 3px solid black;
+    padding: 3px;
+}
+.descripcionElvis{
+    margin-top: 50px;
+}
+.descripcionElvis h2{
+    text-align: center;
+}
+.descripcionElvis p{
+    color: white;
+    text-shadow: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.descripcionElvis .iconosAbout ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.iconosAbout a{
+    padding: 15px;
+    font-size: 20px;
+}
+.trabajosFotos h1{
+    color: rgb(0, 0, 0);
+    text-decoration: underline !important;
+    grid-area: titulo;
+}
+.trabajosFotos{
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo titulo"
+    "fotoTrabajos1 fotoTrabajos2"
+    "fotoTrabajos3 fotoTrabajos4"
+    "fotoTrabajos5 fotoTrabajos6"
+    "fotoTrabajos7 fotoTrabajos8"
+    "fotoTrabajos9 fotoTrabajos10";
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 10px;
+    padding: 5px;
+    background-color: #2c632c;
+}
+.trabajoFoto{
+    filter: opacity(0.5);
+}
+.trabajoFoto:active{
+    transform: rotateY(180deg);
+    transition: all 0.9s;
+    filter: opacity(1);
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.trabajo1{
+    grid-area: fotoTrabajos1;
+}
+.trabajo2{
+    grid-area: fotoTrabajos2;
+}
+.trabajo3{
+    grid-area: fotoTrabajos3;
+}
+.trabajo4{
+    grid-area: fotoTrabajos4;
+}
+.trabajo5{
+    grid-area: fotoTrabajos5;
+}
+.trabajo6{
+    grid-area: fotoTrabajos6;
+}
+.trabajo7{
+    grid-area: fotoTrabajos7;
+}
+.trabajo8{
+    grid-area: fotoTrabajos8;
+}
+.trabajo9{
+    grid-area: fotoTrabajos9;
+}
+.trabajo10{
+    grid-area: fotoTrabajos10;
 }
