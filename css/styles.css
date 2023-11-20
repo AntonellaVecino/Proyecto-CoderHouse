@@ -1,378 +1,379 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Salsa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Salsa&display=swap");
 
-body{
-    background: linear-gradient(45deg, #055405, #2c632c);
-    color: white;
-    font-family: 'Salsa', cursive;
+body {
+  background: linear-gradient(45deg, #055405, #2c632c);
+  color: white;
+  font-family: "Salsa", cursive;
 }
-h1, h2, h3{
-    font-family: 'Berkshire Swash', serif;
+h1,
+h2,
+h3 {
+  font-family: "Berkshire Swash", serif;
 }
 /* Barra navegacion */
-.navbar{
-    font-size: 25px;
-    background-color: green;
-    list-style: none;
-    padding: 25px;
-    background-size: cover;
+.navbar {
+  font-size: 25px;
+  background-color: green;
+  list-style: none;
+  padding: 25px;
+  background-size: cover;
 }
-.nav-item{
-    padding: 20px;
+.nav-item {
+  padding: 20px;
 }
-.navbar img{
-    margin-right: 25px;
+.navbar img {
+  margin-right: 25px;
 }
-#barraDrop{
-    color: yellow;
+#barraDrop {
+  color: yellow;
 }
-.redes i{
-    padding-right: 5px;
+.redes i {
+  padding-right: 5px;
 }
+
+/*Index */
 /* carrusel */
-.carousel-caption{
-    display: flex;
-    justify-content: center;
+.carousel-caption {
+  display: flex;
+  justify-content: center;
 }
-.carousel-caption a{
-    width: fit-content;
-    text-align: center; 
-    margin: 10px;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-color: green;
-    border: 3px solid black;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 10px;
+.carousel-caption a {
+  width: fit-content;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+  border: 3px solid black;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 10px;
 }
-.carousel-caption a:hover{
-    background-color: rgb(69, 255, 1);
-    border: 3px solid rgb(0, 0, 0);
-    text-shadow: 0 0 0 5px black;
-    box-shadow: 2px 0px 10px 5px purple;
+.carousel-caption a:hover {
+  background-color: rgb(69, 255, 1);
+  border: 3px solid rgb(0, 0, 0);
+  text-shadow: 0 0 0 5px black;
+  box-shadow: 2px 0px 10px 5px purple;
 }
-.carousel-caption h1{
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.911);
-    text-shadow: 5px -6px 4px gold;
+.carousel-caption h1 {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.911);
+  text-shadow: 5px -6px 4px gold;
 }
-.jumbotron{
-    font-size: 25px;
-    text-align: center;
-    background-color:rgba(34, 139, 34, 0.674);
+.jumbotron {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(34, 139, 34, 0.674);
 }
-.jumbotron h1{
-    font-size: 45px;
-    color: black;
-    text-shadow: 2px 2px 5px white;
+.jumbotron h1 {
+  font-size: 45px;
+  color: black;
+  text-shadow: 2px 2px 5px white;
 }
-.videoPresentacion{
-    background-color:rgba(34, 139, 34, 0.674);
-    border-radius: 10px;
-    display: flex;
-    margin-top: 50px;
-    flex-flow: column wrap;
-    background-image: url(../imgs/Background/abstract-green-background-free-vector.jpg);
-    background-size:cover;
+.videoPresentacion {
+  background-color: rgba(34, 139, 34, 0.674);
+  border-radius: 10px;
+  display: flex;
+  margin-top: 50px;
+  flex-flow: column wrap;
+  background-image: url(../imgs/Background/abstract-green-background-free-vector.jpg);
+  background-size: cover;
 }
-.videoPresentacion h3{
-    text-align: center;
-    text-decoration: overline;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    padding-top: 15px;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+.videoPresentacion h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-.galeriaTrabajos{
-    background-color:rgba(34, 139, 34, 0.674);
-    border-radius: 10px;
-    margin-top: 50px;
+.galeriaTrabajos {
+  background-color: rgba(34, 139, 34, 0.674);
+  border-radius: 10px;
+  margin-top: 50px;
 }
-.foto{
-    border: 3px solid black;
-    border-radius: 10px;
-    filter: grayscale(100%) blur(2px);
+.foto {
+  border: 3px solid black;
+  border-radius: 10px;
+  filter: grayscale(100%) blur(2px);
 }
-.foto:active{
-    border: 5px solid purple;
-    transform: scale(0.9);
-    transition: all 0.9s;
-    filter: grayscale(0%) blur(0px);
+.foto:active {
+  border: 5px solid purple;
+  transform: scale(0.9);
+  transition: all 0.9s;
+  filter: grayscale(0%) blur(0px);
 }
-.galeriaTrabajos{
-    text-align: center;
+.galeriaTrabajos {
+  text-align: center;
 }
-.galeriaTrabajos h1{
-    text-align: center;
-    padding: 15px;
-    font-size: 30px;
-    text-decoration: underline;
-    padding-bottom: 50px;
+.galeriaTrabajos h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 50px;
 }
-.cards{
-    color: black;
-    padding: 50px;
-    margin-top: 15px;
-    text-align: center;
-    display: flex;
-    flex-flow: row wrap;
-    column-gap: 60px;
-    row-gap: 20px;
-    justify-content: center;
-    align-content: center;
+.cards {
+  color: black;
+  padding: 50px;
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 60px;
+  row-gap: 20px;
+  justify-content: center;
+  align-content: center;
 }
-.cards h4, p{
-    padding: 5px;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
-    font-size: 16px;
+.cards h4,
+p {
+  padding: 5px;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  font-size: 16px;
 }
-.cards h4{
-    text-decoration: overline;
+.cards h4 {
+  text-decoration: overline;
 }
-.cards img{
-    border: 3px solid black;
+.cards img {
+  border: 3px solid black;
 }
-.card{
-    border: 3px solid purple;
-    border-radius: 5px;
+.card {
+  border: 3px solid purple;
+  border-radius: 5px;
 }
-.card .btn{
-    margin: 3px;
-} 
-.card-body{
-    background-color: rgba(255, 217, 0, 0.838);
+.card .btn {
+  margin: 3px;
 }
-.posts h1{
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-    margin-top: 50px;
+.card-body {
+  background-color: rgba(255, 217, 0, 0.838);
 }
-.card:active{
-    transform: scale(1.06);
-    transition: all 0.9s;
+.posts h1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-top: 50px;
 }
-.carruselVideos{
-    text-align: center;
-    background-color: rgba(34, 139, 34, 0.674);
-    margin-bottom: 15px;
+.card:active {
+  transform: scale(1.06);
+  transition: all 0.9s;
 }
-.carruselVideos h2{
-    font-size: 35px;
-    text-decoration: overline;
-    padding-top: 25px;
-    text-shadow: 2px 2px 5px black;
+.carruselVideos {
+  text-align: center;
+  background-color: rgba(34, 139, 34, 0.674);
+  margin-bottom: 15px;
 }
-.carruselVideos p{
-    font-size: 20px;
-    color: black;
+.carruselVideos h2 {
+  font-size: 35px;
+  text-decoration: overline;
+  padding-top: 25px;
+  text-shadow: 2px 2px 5px black;
 }
-.carruselVideos .carousel-item{
-    border: 3px solid black;
-    border-radius: 10px;
+.carruselVideos p {
+  font-size: 20px;
+  color: black;
 }
-.lista1{
-    padding: 5px;
+.carruselVideos .carousel-item {
+  border: 3px solid black;
+  border-radius: 10px;
 }
-footer{
-    background-color: rgb(55, 128, 0);
+.lista1 {
+  padding: 5px;
+}
+footer {
+  background-color: rgb(55, 128, 0);
 }
 
 /* aboutus */
 /* Página About Us */
-.tituloAbout{
-    font-size: 50px !important;
-    margin-top: 20px !important;
-    padding: 15px;
+.tituloAbout {
+  font-size: 50px !important;
+  margin-top: 20px !important;
+  padding: 15px;
 }
-.videoAbout{
-    display: flex;
-    justify-content: center;
+.videoAbout {
+  display: flex;
+  justify-content: center;
 }
-.btn{
-    background-color:#000000b9;
-    color: white;
-    border: 3px solid rgb(255, 255, 255);
-    padding: 10px;
-    margin-bottom: 15px;
+.btn {
+  background-color: #000000b9;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 15px;
 }
-.botonAbout:hover{  
-    background-color: purple;
-    border: 3px solid gold;
-    transition: all 0.9s;
-    transform: scale(1.2);
+.botonAbout:hover {
+  background-color: purple;
+  border: 3px solid gold;
+  transition: all 0.9s;
+  transform: scale(1.2);
 }
-.resumen{
-    padding: 15px;
+.resumen {
+  padding: 15px;
 }
-.resumen h2{
-    font-size: 40px;
+.resumen h2 {
+  font-size: 40px;
 }
-.imagenElvis{
-    margin-top: 50px;
+.imagenElvis {
+  margin-top: 50px;
 }
-.imagenElvis img{
-    box-shadow: 0px 0px 15px 5px gold;
+.imagenElvis img {
+  box-shadow: 0px 0px 15px 5px gold;
 }
-.descripcionElvis{
-    margin-top: 100px;
-    text-align: center;
+.descripcionElvis {
+  margin-top: 100px;
+  text-align: center;
 }
-.descripcionElvis p{
-    margin-top: 10px;
-    font-size: 22px;
+.descripcionElvis p {
+  margin-top: 10px;
+  font-size: 22px;
 }
-.descripcionElvis .iconosAbout ul{
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+.descripcionElvis .iconosAbout ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
-.iconosAbout a{
-    font-size: 30px;
+.iconosAbout a {
+  font-size: 30px;
 }
-.trabajosFotos{
-    text-align: center;
-    margin-top: 100px;
+.trabajosFotos {
+  text-align: center;
+  margin-top: 100px;
 }
-.trabajosFotos h1{
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
+.trabajosFotos h1 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
-.trabajoFoto img{
-    filter: opacity(0.5);
-    margin-top: 50px;
-    width: 300px;
-    height: 300px;
+.trabajoFoto img {
+  filter: opacity(0.5);
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
 }
-.trabajoFoto img:hover{
-    transform: rotate(360deg);
-    transition: all 1.8s;
-    filter: none;
-    box-shadow: 0px 0px 15px 10px gold;
-    -webkit-transform: rotateY(360deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(360deg);
-    transform-style: preserve-3d;   
+.trabajoFoto img:hover {
+  transform: rotate(360deg);
+  transition: all 1.8s;
+  filter: none;
+  box-shadow: 0px 0px 15px 10px gold;
+  -webkit-transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(360deg);
+  transform-style: preserve-3d;
 }
-.elEstudio{
-    margin-top: 100px;
-    font-size: 25px; 
+.elEstudio {
+  margin-top: 100px;
+  font-size: 25px;
 }
-.elEstudio h3{
-    text-decoration: overline;
-    font-size: 35px;
-    text-align: justify;
-    padding-bottom: 10px;
+.elEstudio h3 {
+  text-decoration: overline;
+  font-size: 35px;
+  text-align: justify;
+  padding-bottom: 10px;
 }
-.localAbout img{
-    text-align: center;
-    padding: 15px;
-    width: 200px;
-    height: 200px;
+.localAbout img {
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
 }
-.img{
-    background-color: #2c632c;
-    box-shadow: 0px 0px 3px 5px black;
+.img {
+  background-color: #2c632c;
+  box-shadow: 0px 0px 3px 5px black;
 }
-.img:hover{
-    transition: all 0.9s; 
-    transform: scale(1.2);
-    background-color: purple;
-    box-shadow: 0px 0px 3px 5px gold;
+.img:hover {
+  transition: all 0.9s;
+  transform: scale(1.2);
+  background-color: purple;
+  box-shadow: 0px 0px 3px 5px gold;
 }
-
-
-
-
-
 
 /* Media Queries de todo*/
 /* Index */
-@media only screen and (min-width: 480px) and (max-width: 599px){
-    .cards .col-md-4{
-        padding-top: 30px;
-    }
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .cards .col-md-4 {
+    padding-top: 30px;
+  }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1199px){
-    .carousel-caption h1{
-        font-size: 50px;
-    }
-    .carousel-caption a{
-        font-size: 30px;
-    }
-    .jumbotron p{
-        font-size: 25px;
-    }
-    .foto:hover{
-        border: 5px solid purple;
-        transform: scale(0.9);
-        transition: all 0.9s;
-        filter: grayscale(0%) blur(0px);
-    }
-    .card:hover{
-        transform: scale(1.06);
-        transition: all 0.9s;
-    }
-    .carruselVideos{
-        font-size: 25px;
-    }
-    .carruselVideos p{
-        font-size: 20px;
-    }
-    .footer{
-        font-size: 18px;
-    }
-    .footer iframe{
-        height: 200px;
-    }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .carousel-caption a {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: 25px;
+  }
+  .foto:hover {
+    border: 5px solid purple;
+    transform: scale(0.9);
+    transition: all 0.9s;
+    filter: grayscale(0%) blur(0px);
+  }
+  .card:hover {
+    transform: scale(1.06);
+    transition: all 0.9s;
+  }
+  .carruselVideos {
+    font-size: 25px;
+  }
+  .carruselVideos p {
+    font-size: 20px;
+  }
+  .footer {
+    font-size: 18px;
+  }
+  .footer iframe {
+    height: 200px;
+  }
 }
-@media only screen and (min-width: 1200px){
-    .carousel-caption h1{
-        font-size: 50px;
-    }
-    .carousel-caption a{
-        font-size: 30px;
-    }
-    .jumbotron p{
-        font-size: 25px;
-    }
-    .galeriaTrabajos h1{
-        font-size: 40px;
-    }
-    .foto:hover{ 
-        border: 5px solid purple;
-        transform: scale(0.9);
-        transition: all 0.9s;
-        filter: grayscale(0%) blur(0px);
-    }
-    .card:hover{
-        transform: scale(1.06);
-        transition: all 0.9s;
-    }
-    .carruselVideos{
-        font-size: 25px;
-    }
-    .carruselVideos p{
-        font-size: 20px;
-    }
-    .footer .text-center{
-        font-size: 20px;
-    }
-    .footer iframe{
-        height: 200px;
-    }
+@media only screen and (min-width: 1200px) {
+  .carousel-caption h1 {
+    font-size: 50px;
+  }
+  .carousel-caption a {
+    font-size: 30px;
+  }
+  .jumbotron p {
+    font-size: 25px;
+  }
+  .galeriaTrabajos h1 {
+    font-size: 40px;
+  }
+  .foto:hover {
+    border: 5px solid purple;
+    transform: scale(0.9);
+    transition: all 0.9s;
+    filter: grayscale(0%) blur(0px);
+  }
+  .card:hover {
+    transform: scale(1.06);
+    transition: all 0.9s;
+  }
+  .carruselVideos {
+    font-size: 25px;
+  }
+  .carruselVideos p {
+    font-size: 20px;
+  }
+  .footer .text-center {
+    font-size: 20px;
+  }
+  .footer iframe {
+    height: 200px;
+  }
 }
 /* About Us */
-@media (pointer:coarse) and (min-width:320px) and (max-width:699px){
-    .trabajoFoto img:active{
-        transform: rotate(360deg);
-        transition: all 1.8s;
-        filter: none;
-        box-shadow: 0px 0px 10px 5px gold;
-        -webkit-transform: rotateY(360deg);
-        -webkit-transform-style: preserve-3d;
-        transform: rotateY(360deg);
-        transform-style: preserve-3d;  
-    }
+@media (pointer: coarse) and (min-width: 320px) and (max-width: 699px) {
+  .trabajoFoto img:active {
+    transform: rotate(360deg);
+    transition: all 1.8s;
+    filter: none;
+    box-shadow: 0px 0px 10px 5px gold;
+    -webkit-transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+  }
 }
