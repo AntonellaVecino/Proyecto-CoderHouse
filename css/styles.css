@@ -68,29 +68,6 @@ h3 {
 .jumboForm {
   background-color: #2c632c;
 }
-.formulario1 {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #2c632c;
-}
-.custom-input {
-  width: 300px;
-}
-.formulario2 {
-  flex-flow: column wrap;
-}
-.formulario3 {
-  flex-flow: column wrap;
-  background-color: #2c632c;
-}
-.formulario4 {
-  flex-flow: column wrap;
-}
-.custom-input2 {
-  width: 300px;
-}
 @keyframes changeColor {
   0% {
     color: rgb(0, 0, 0);
